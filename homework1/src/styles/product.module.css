@@ -1,36 +1,45 @@
-.product {
+.products {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
   justify-content: center;
   width: 100%;
+  padding: 20px;
 }
 
-.product div {
-  border: 1px solid #ddd;
+.product {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 200px;
+  background-color: #f9f9f9;
   border-radius: 8px;
-  padding: 16px;
-  text-align: center;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  transition: transform 0.2s;
+  transition: transform 0.2s, box-shadow 0.2s;
 }
 
-.product div:hover {
+.product:hover {
   transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 .product img {
   border-radius: 8px;
+  width: 100%;
+  height: auto;
 }
 
 .product h3 {
   color: #333;
-  font-size: 1.2em;
+  font-size: 1em;
   margin-top: 10px;
 }
 
-.product div div {
+.product div {
   margin: 8px 0;
   font-size: 1em;
   color: #555;
+  text-align: center;
 }
