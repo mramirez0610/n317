@@ -21,8 +21,17 @@ export default function Hero() {
           click about for a cool photo of me hehe. here's a description of my
           final project.
         </p>
-
-        <p></p>
+        <p>
+          one of the most important things in my life is rock climbing. i love
+          everything about the sport, it has completely changed my life. so, for
+          my final project, i'm going to be creating a web app that allows a
+          user to log rock climbs that they've done in the past. the user will
+          be able to input the name of the climb, the grade, and any notes they
+          have about the climb. the user will also be able to view all of the
+          climbs they've logged. it'll be a simple app, but i'm excited to make
+          it!
+        </p>
+        <p>hey look down there, cool counter</p>
       </div>
       <Button></Button>
     </section>

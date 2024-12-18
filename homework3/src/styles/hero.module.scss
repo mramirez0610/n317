@@ -2,6 +2,8 @@
   width: 100%;
   display: flex;
   flex-direction: column;
+  gap: 2rem;
+
   .heroImg {
     width: 50%;
     height: 50%;
@@ -10,9 +12,13 @@
   .info {
     width: 55%;
     margin: 0 auto;
-    padding: 2rem 0;
+    padding: 2rem 1rem;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 
     p {
+      margin-top: 2%;
     }
   }
 }
