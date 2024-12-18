@@ -1,5 +1,6 @@
 import Image from "next/image";
 import styles from "@/styles/about.module.scss";
+import Button from "./button";
 
 export default function AboutHero() {
   return (
@@ -18,6 +19,7 @@ export default function AboutHero() {
           all the important info is on the other page! here's something for your
           troubles, though.
         </p>
+        <Button></Button>
       </div>
     </section>
   );
