@@ -1,6 +1,6 @@
 import styles from "@/styles/hero.module.scss";
 import Image from "next/image";
-import Button from "./button";
+import Counter from "./counter";
 
 export default function Hero() {
   return (
@@ -32,8 +32,8 @@ export default function Hero() {
           it!
         </p>
         <p>hey look down there, cool counter</p>
+        <Counter></Counter>
       </div>
-      <Button></Button>
     </section>
   );
 }

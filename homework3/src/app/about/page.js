@@ -1,6 +1,10 @@
-import Image from "next/image";
-import styles from "@/styles/about.module.scss";
+import styles from "@/styles/page.module.scss";
+import AboutHero from "@/components/aboutHero";
 
 export default function About() {
-  return <main>About</main>;
+  return (
+    <main className={styles.main}>
+      <AboutHero></AboutHero>
+    </main>
+  );
 }

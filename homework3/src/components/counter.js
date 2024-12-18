@@ -1,8 +1,8 @@
 "use client";
 import { useState } from "react";
-import styles from "@/styles/button.module.scss";
+import styles from "@/styles/counter.module.scss";
 
-export default function Button() {
+export default function Counter() {
   const [count, setCount] = useState(0);
 
   return (
