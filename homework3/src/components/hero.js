@@ -1,4 +1,4 @@
-import styles from "../styles/hero.module.scss";
+import styles from "@/styles/hero.module.scss";
 import Image from "next/image";
 import Button from "./button";
 
