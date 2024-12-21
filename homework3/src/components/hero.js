@@ -17,9 +17,11 @@ export default function Hero() {
         <h2>hello!</h2>
         <p>
           this is my third assignment for n317. it's a quick little web app with
-          two pages, and is component structured for the most part. feel free to
-          click about for a cool photo of me hehe. here's a description of my
-          final project.
+          two pages, and is component structured for the most part. this page
+          includes a little photo of me, and a counter at the bottom that
+          utlizies useState. the about page doesn't have much to it either, but
+          it has a cool little button at the bottom that was fun to figure out.
+          below is a description of my final project.
         </p>
         <p>
           one of the most important things in my life is rock climbing. i love
