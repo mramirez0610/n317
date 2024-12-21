@@ -5,7 +5,7 @@ export default function Landing() {
   return (
     <main className={styles.landing}>
       <div className={styles.info}>
-        <h1>hello world</h1>
+        <h1>homework 5</h1>
 
         <p>
           okay. so here's the deal. this is our landing page, and there are two
