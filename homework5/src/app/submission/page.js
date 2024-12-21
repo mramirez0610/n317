@@ -14,9 +14,18 @@ export default function Submission() {
     <main className={styles.submission}>
       <div className={styles.info}>
         <h2>here's your data!</h2>
-        <h3>{formData.name}</h3>
-        <h3>{formData.email}</h3>
-        <p>{formData.message}</p>
+        <div className={styles.dataItem}>
+          <h3>name:</h3>
+          <p>{formData.name}</p>
+        </div>
+        <div className={styles.dataItem}>
+          <h3>email:</h3>
+          <p>{formData.email}</p>
+        </div>
+        <div className={styles.dataItem}>
+          <h3>message:</h3>
+          <p>{formData.message}</p>
+        </div>
       </div>
     </main>
   );
